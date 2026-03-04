@@ -1,0 +1,32 @@
+/*
+   Special Effects style sheet
+
+   Filename:         dweffects.css
+   Supporting Files: 
+
+*/
+
+blockquote {
+	background: -webkit-gradient(linear, left top, right top, from(rgb(166, 230, 230)), color-stop(33%, rgb(231, 231, 231)), to(rgb(255, 255, 255)));
+	background: linear-gradient(to right, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+}
+
+body {
+	box-shadow: rgba(211, 211, 211, 0.5) 10px 0px 15px,
+		rgba(211, 211, 211, 0.5) -10px 0px 15px;
+}
+
+article {
+	box-shadow: inset rgb(171, 171, 171) -15px -15px 75px,
+		rgb(101, 101, 101) 5px 5px 5px;
+}
+
+
+header nav li {
+	background-color: rgb(224, 238, 238);
+	border-radius: 10px;
+	box-shadow: inset rgb(255, 255, 255) 3px 3px 2px,
+		inset rgb(147, 207, 207) -5px -5px 5px;
+}
+
+
